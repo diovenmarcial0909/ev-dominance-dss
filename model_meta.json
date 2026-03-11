@@ -1,0 +1,101 @@
+{
+  "best_clf_name": "Random Forest",
+  "best_reg_name": "Gradient Boosting",
+  "clf_results": {
+    "Logistic Regression": {
+      "Accuracy": 0.9833,
+      "Precision": 0.5,
+      "Recall": 1.0,
+      "F1-Score": 0.6667
+    },
+    "Decision Tree": {
+      "Accuracy": 0.9875,
+      "Precision": 0.5714,
+      "Recall": 1.0,
+      "F1-Score": 0.7273
+    },
+    "Random Forest": {
+      "Accuracy": 0.9917,
+      "Precision": 0.75,
+      "Recall": 0.75,
+      "F1-Score": 0.75
+    },
+    "Gradient Boosting": {
+      "Accuracy": 0.9833,
+      "Precision": 0.5,
+      "Recall": 0.25,
+      "F1-Score": 0.3333
+    },
+    "KNN": {
+      "Accuracy": 0.9917,
+      "Precision": 0.75,
+      "Recall": 0.75,
+      "F1-Score": 0.75
+    }
+  },
+  "reg_results": {
+    "Ridge Regression": {
+      "MAE": 5.5721,
+      "MSE": 65.5501,
+      "RMSE": 8.0963,
+      "R2": 0.601
+    },
+    "Decision Tree": {
+      "MAE": 1.7462,
+      "MSE": 20.0323,
+      "RMSE": 4.4757,
+      "R2": 0.8781
+    },
+    "Random Forest": {
+      "MAE": 1.0836,
+      "MSE": 6.4336,
+      "RMSE": 2.5365,
+      "R2": 0.9608
+    },
+    "Gradient Boosting": {
+      "MAE": 1.0758,
+      "MSE": 3.791,
+      "RMSE": 1.9471,
+      "R2": 0.9769
+    },
+    "KNN": {
+      "MAE": 2.2948,
+      "MSE": 27.6948,
+      "RMSE": 5.2626,
+      "R2": 0.8314
+    }
+  },
+  "feature_cols": [
+    "charging_stations",
+    "fast_chargers_share",
+    "avg_ev_range_km",
+    "fuel_price_usd_per_liter",
+    "electricity_price_usd_per_kwh",
+    "gdp_per_capita",
+    "urban_population_percent",
+    "co2_emissions_transport_mt",
+    "ev_subsidy_usd",
+    "emission_regulation_score",
+    "ev_growth_rate_yoy",
+    "region_APAC",
+    "region_Europe",
+    "region_North America",
+    "region_Oceania",
+    "region_South America",
+    "vehicle_segment_commercial",
+    "vehicle_segment_mass_market",
+    "vehicle_segment_premium"
+  ],
+  "regions": [
+    "APAC",
+    "Europe",
+    "North America",
+    "Oceania",
+    "South America"
+  ],
+  "vehicle_segments": [
+    "commercial",
+    "mass_market",
+    "premium"
+  ]
+}
